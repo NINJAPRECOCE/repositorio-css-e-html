@@ -40,3 +40,18 @@ font-size: 32px;
         font-size: 18px;
         align-items: center;
         width:100%;
+        border-button: 4px solid var(--botao-ativo);
+        border-left: 2px solid var(--botao-ativo) ;
+        border-right: 2px solid var(--botao-ativo) ;
+        border-top: none;
+    }
+        .botao: first- child{
+            border-radius:40px 0 0;
+        }
+    .botoes{
+            display:black;
+        }
+    @media screen and (min-width: 768px) {
+        .botoes{
+            display: flex;
+        }
