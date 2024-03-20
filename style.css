@@ -76,3 +76,10 @@ font-size: 32px;
                 .aba-conteudo{
                     display:none;
                 }
+                .aba-conteudo-titulo-principal{
+                    font-size:28px
+                    text-align:center;
+                    .aba-conteudo-titulo-secundario{
+                        text-align:center;
+                        color:Var(--verde);
+                        text-transform:uppercase;
