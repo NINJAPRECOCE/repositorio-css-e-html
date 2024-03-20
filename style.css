@@ -80,6 +80,6 @@ font-size: 32px;
                     font-size:28px
                     text-align:center;
                     .aba-conteudo-titulo-secundario{
-                        text-align:center;
-                        color:Var(--verde);
-                        text-transform:uppercase;
+                    text-align:center;
+                    color:Var(--verde);
+                    text-transform:uppercase;
