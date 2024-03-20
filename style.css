@@ -61,7 +61,18 @@ font-size: 32px;
         }
             .botao: last-child{
             border-radius:0 40px 0 0;
-                .ativo{
+                .botao.ativo{
                     background-color:var(--botao-ativo);
                     border-botton: 4px solid var (--verde);
+                }
+                .aba-textos{
+                    background-color:var(--texto-fundo);
+                    padding:40px;
+                    border-radius:0 0 40px 40px;
+                }
+                .aba-conteudo.ativo{
+                    display:block;
+                }
+                .aba-conteudo{
+                    display:none;
                 }
