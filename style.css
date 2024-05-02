@@ -90,9 +90,29 @@ body {
 }
 
 .contador{
-    font.size:20px;
-    text-align:center;
+    font-size: 20px;
+    text-align: center;
 }
+
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+
+}
+
 
 @media screen and (min-width: 768px) {
     .botoes {
